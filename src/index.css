@@ -1,0 +1,44 @@
+.navbarsection .bg-body-tertiary {
+  background-color: rgba(19, 60, 102, 1) !important;
+}
+.navbarsection .bg-body-tertiary a,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white !important;
+}
+
+.navbarsection .navbar-toggler {
+  background-color: white;
+}
+.home,
+.About {
+  background-color: rgb(26, 188, 156, 1);
+  color: white;
+}
+.home .image {
+  width: 20%;
+}
+
+.Portfolio .images div {
+  width: 30%;
+}
+.Portfolio .images div img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .Portfolio .images div {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Portfolio .images div {
+    width: 100%;
+  }
+}
+.About .data div {
+  width: 40%;
+}
+.About .button button {
+  color: white;
+}
